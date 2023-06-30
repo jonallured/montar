@@ -1,5 +1,5 @@
 require "montar/version"
-require "montar/railtie"
+require "montar/engine"
 
 module Montar
   # Your code goes here...
