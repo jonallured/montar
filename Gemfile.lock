@@ -72,6 +72,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+    bson (4.15.0)
     builder (3.2.4)
     concurrent-ruby (1.2.2)
     crass (1.0.6)
@@ -93,6 +94,12 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.18.1)
+    mongo (2.19.0)
+      bson (>= 4.14.1, < 5.0.0)
+    mongoid (8.0.4)
+      activemodel (>= 5.1, < 7.1, != 7.0.0)
+      mongo (>= 2.18.0, < 3.0.0)
+      ruby2_keywords (~> 0.0.5)
     net-imap (0.3.6)
       date
       net-protocol
@@ -141,6 +148,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    ruby2_keywords (0.0.5)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -161,6 +169,7 @@ PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
+  mongoid (~> 8.0.2)
   montar!
   pg
   puma
