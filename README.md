@@ -1,5 +1,16 @@
 # Montar
-Short description and motivation.
+
+What's a Montar?
+
+```
+Tools for migrating from Mongoid to ActiveRecord
+Migrate from Mongoid to ActiveRecord
+Mongoid to ActiveRecord
+Mon to AR
+Montar
+```
+
+:shrug:
 
 ## Usage
 How to use my plugin.
